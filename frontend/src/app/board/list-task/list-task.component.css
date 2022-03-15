@@ -1,0 +1,42 @@
+.accordion_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion_size{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding: 100px 16px 0px;
+}
+.spacer{
+    flex:1 0 auto;
+}
+.btnTodo{
+    background-color: #ff0055;
+    color: #000000;
+    border: 2px solid #12f3d5;
+
+    
+}
+.btnInProgress{
+    background-color: #dbe917;
+    color: #000000;
+    border: 2px solid #12f3d5;
+}
+.btnDone{
+    background-color: #01ff63;
+    color: #000000;
+    border: 2px solid #12f3d5;
+}
+.btnDelete{
+    
+    color: #ff0055;
+    
+}
+.text{
+    color:#12f3d5
+}
+.accordion_heard{
+    border: 1px solid #12f3d5;
+}
